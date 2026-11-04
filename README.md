@@ -32,6 +32,18 @@ Eski bir kopya hâlâ çalışıyorsa yenisini yapıştırmadan önce `window.st
 - Yanıt ve repost betikleri o kartı atlar, konsolda `Yer işareti mavi` yazar ve bir sonrakine geçer.
 - Eklenti betiği **Select All** dedikten sonra mavi yer işaretli satırın tikini kaldırır, sonra kalanları siler.
 
+## Gönderileri silmek
+
+Dosya: `delete-posts.js`
+
+Sayfa: `https://x.com/KULLANICI_ADIN`
+
+Profilde **Posts** seçili olmalı. Adresin sonunda `/all`, `/reposts` veya `/with_replies` olmamalı. Eklenti gerekmez.
+
+Betik, görünen kendi gönderilerinin **⋯ → Sil → onay** adımlarını sırayla yapar. Sağ alttaki yer işareti mavi olan gönderiyi atlar. Konsola gönderi metni veya hesap adı yazmaz.
+
+Konsolda `Görünen gönderi kalmadı` yazarsa sayfayı yenile ve betiği yeniden yapıştır. X eski gönderileri parça parça yükler.
+
 ## Yanıtları silmek
 
 Dosya: `delete-replies.js`
