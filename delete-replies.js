@@ -15,7 +15,7 @@ window.stopLoop = false;
     return;
   }
 
-  console.info("Yanıt silme başladı:", handle);
+  console.info("Yanıt silme başladı.");
   console.info("Durdurmak için konsola window.stopLoop = true yaz.");
 
   const labelOf = (element) =>

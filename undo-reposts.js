@@ -17,7 +17,7 @@ window.stopLoop = false;
     return;
   }
 
-  console.info("Repost geri alma başladı:", handle);
+  console.info("Repost geri alma başladı.");
   console.info("Durdurmak için konsola window.stopLoop = true yaz.");
 
   const labelOf = (element) =>
